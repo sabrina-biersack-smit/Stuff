@@ -140,7 +140,7 @@
       }
     ],
     "ports": [
-      "5432/tcp"
+      "5432/tcp","5432/tcp"
     ],
     "volumes": ["/var/lib/postgresql/data"]
   },
