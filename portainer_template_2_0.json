@@ -209,6 +209,18 @@
             "platform": "linux",
             "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mongo.png",
             "image": "mongo:latest",
+            "env": [
+                {
+                    "name": "MONGO_INITDB_ROOT_USERNAME",
+                    "label": "MONGO_INITDB_ROOT_USERNAME",
+                    "default": "root"
+                },
+                {
+                    "name": "MONGO_INITDB_ROOT_PASSWORD",
+                    "label": "MONGO_INITDB_ROOT_PASSWORD",
+                    "default": "root"
+                }
+            ],
             "ports": [
                 "27017/tcp"
             ],
